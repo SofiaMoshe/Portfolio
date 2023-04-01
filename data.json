@@ -1,0 +1,49 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "Random Quote Generator",
+            "description": "This is a little program that displays a randomly selected quote each time the button is clicked.",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sofiamoshe.github.io/project-0",
+            "github_link": "https://github.com/SofiaMoshe/project-0",
+            "image_urls": ["../static/images/random-quotes.jpg","/static/images/random-quote-1.jpg"]
+
+        },
+        {
+            "id": 1,
+            "project_name": "Data Pagination and Filtering",
+            "description": "A list of students which paginates to more students",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sofiamoshe.github.io/project-1",
+            "github_link": "https://github.com/SofiaMoshe/project-1",
+            "image_urls": ["/static/images/data-pagination-filtering.jpg"]
+        },
+        {
+            "id": 2,
+            "project_name": "Interactive Form",
+            "description": "A webform using data validation",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sofiamoshe.github.io/project-2",
+            "github_link": "https://github.com/SofiaMoshe/project-2",
+            "image_urls": ["/static/images/interactive-form.jpg"]
+        },
+        {
+            "id": 3,
+            "project_name": "Phrase Hunter Game",
+            "description": "A browser-based phrase guessing game",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": " https://sofiamoshe.github.io/project-3",
+            "github_link": "https://github.com/SofiaMoshe/project-3",
+            "image_urls": ["/static/images/phrase-hunter.jpg"]
+        },
+        {
+            "id": 4,
+            "project_name": "Public API Request website",
+            "description": "A employee directory",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "live_link": "https://sofiamoshe.github.io/project-4",
+            "image_urls": ["/static/images/public-api.jpg"]
+        }
+    ]
+}
