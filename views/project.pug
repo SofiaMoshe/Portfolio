@@ -11,13 +11,10 @@ block content
     .inner-wrapper.flex-row-wrap.two-col
       .project-info-box.box
 
-        //- Use the info in your data file and the comments below to complete this template
 
-        //- Use interpolation to dynamically add the project title
         h1 #{data.projects[id].project_name}
 
 
-        //- Use interpolation to dynamically add the project description
         p #{data.projects[id].description}
 
       .project-tech-links-box.box
@@ -27,16 +24,13 @@ block content
             
             li #{technology}     
 
-        //- Add the href values to the links below
         a.btn-link(href=`https://sofiamoshe.github.io/project-${id}/`, target="_blank") Live Demo
         
         a.btn-link(href=`https://github.com/SofiaMoshe/project-${id}/`, target="_blank") Live Demo
 
     .project-img-box.box
 
-      //- Replace the URLs in the src attributes below with interpolated template literals to dynamically add your project images, and add descriptions to the alt attributes
       
-      //- img.project-img(src=`${projects.image_url[0]}`, alt='')
       img.project-img(src=`${data.projects[(id)].image_urls[0]}`, alt='')
       img.project-img(src=`${data.projects[(id)].image_urls[1]}`, alt='')
 

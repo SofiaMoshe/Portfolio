@@ -32,10 +32,10 @@ app.use((err, req, res, next) => {
     res.status(err.status || 500);
     if (err.status === 404) {
         res.render("page-not-found", {err});
-        console.log(`Error ${err.status}: ${err.message}`);
+        console.log("Sorry, this page does not exist");
     } else {
         res.render("error", {err});
-        console.log(`Error ${err.status}: ${err.message}`);
+        console.log("Sorry, this page does not exist");
     }
 });
 
